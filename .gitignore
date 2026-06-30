@@ -1,0 +1,44 @@
+# Model files (terlalu besar, disimpan di HuggingFace)
+*.keras
+*.tflite
+*.h5
+
+# Database lokal
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+conjunet_env/
+
+# Dataset & output (tidak perlu di cloud)
+dataset/
+dataset_clean/
+dataset_split/
+dataset_split.zip
+dataset_split_v2.zip
+dataset alternatif/
+dataset CP-AnemiC/
+output_model*/
+output_clustering*/
+
+# Script debug & utilitas
+debug_*.py
+patch_*.py
+audit_*.py
+check_*.py
+fix_*.py
+find_*.py
+count_*.py
+inspect_*.py
+hf_download_snippet.py
+
+# Dokumen & file lain
+*.docx
+*.md
+Konteks_Proyek_CONJUNET.*
+DAFTAR_REVISI*
+PANDUAN_REVISI*
